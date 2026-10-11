@@ -5,9 +5,15 @@
 .venv/
 __pycache__/
 *.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
 
-# Knowledge base PDFs (third-party content, do not commit)
-data/knowledge/*.pdf
+# Reference material (may be third-party content)
+data/knowledge/*
+!data/knowledge/.gitkeep
 
 # Generated readings (may contain personal data)
 output/*
