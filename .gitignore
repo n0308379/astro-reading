@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Knowledge base PDFs (third-party content, do not commit)
+data/knowledge/*.pdf
+
+# Generated readings (may contain personal data)
+output/*
+!output/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
